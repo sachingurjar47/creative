@@ -1,0 +1,161 @@
+.welcome-container {
+	/* max-width: 850px; */
+	margin: 0px auto;
+	padding: 100px;
+	display: flex;
+	flex-direction: column;
+}
+
+.welcome-container > div > p:nth-child(1) {
+	font-weight: 600;
+	font-size: 16px;
+	line-height: 19px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #111822;
+	opacity: 0.5;
+	margin-bottom: 0;
+}
+.welcome-container > div > p:nth-child(3) {
+	font-weight: 500;
+	font-size: 22px;
+	line-height: 26px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #111822;
+	opacity: 0.5;
+	max-width: 500px;
+	margin: 25px auto;
+}
+.welcome-container > div > h1 {
+	font-weight: 600;
+	font-size: 56px;
+	line-height: 67px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	color: #111822;
+	margin-top: 3px;
+	margin-bottom: 17px;
+}
+.welcome-container > div > h1 > span:nth-child(1) {
+	color: #077bff;
+	background: url(/src/utils/blueStar.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.welcome-container > div > h1 > span:nth-child(2) {
+	color: #16d113;
+	background: url(/src/utils/greenStar.svg);
+	background-repeat: no-repeat;
+	background-position: right top;
+}
+.welcome-2 {
+	margin: 0px auto 26px;
+}
+.get-start-arrow {
+	background: #077bff;
+	border-radius: 10px;
+	letter-spacing: -0.02em;
+	align-items: center;
+	color: #ffffff;
+	padding: 10px 55px;
+	margin-bottom: 27px;
+	width: 222px;
+	height: 50px;
+}
+.rating-container {
+	display: flex;
+	flex-direction: column;
+	width: 222px;
+	height: 90px;
+	background: rgba(0, 182, 122, 0.1);
+	border-radius: 10px;
+	border: 1px solid;
+}
+.rating {
+	margin: 0 auto;
+}
+.rating > input {
+	display: none;
+}
+.rating > label > img {
+	background: #00b67a;
+	height: 30px;
+	width: 30px;
+	margin: 16px 2px;
+	margin-bottom: 0px;
+}
+#hlaf-star {
+	background: linear-gradient(90deg, #00b67a 50%, #dcdce6 50%);
+}
+.rating-container > p {
+	margin: 16px auto;
+}
+.trustpilot {
+	text-align: center;
+	color: #111822;
+	font-weight: 600;
+	font-size: 16px;
+	align-items: center;
+}
+.trustpilot > p {
+	margin-top: 5px;
+	align-items: center;
+	text-align: center;
+}
+.security-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.security-container > div {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+    align-items: center;
+    padding:27px 35px ;
+}
+.security-container > div >P{
+    border: 1px solid black;
+    margin:0;
+    margin-left: 16px;
+}
+.security-container > div > img {
+	border-radius: 8px;
+	width: 40px;
+	height: 40px;
+    border: 1px solid black;
+}
+#square {
+	background: #eefefd;
+	border: 1px solid #d4eae8;
+	border-radius: 5px;
+}
+#square > img {
+	background: linear-gradient(135deg, #3bc9fb 0%, #42a6fb 100%);
+}
+#lock {
+	background: #eefef0;
+	border: 1px solid #cee5df;
+	border-radius: 5px;
+}
+#lock > img {
+	background: linear-gradient(135deg, #72e6e5 0%, #75dff0 100%);
+}
+#dollar {
+	background: #effaf6;
+	border: 1px solid #cedac2;
+	border-radius: 5px;
+}
+#dollar > img {
+	background: linear-gradient(135deg, #80fc6a 0%, #41f064 100%);
+}
+#safe {
+	background: #f0f7ff;
+	border: 1px solid #c7dee6;
+	border-radius: 5px;
+}
+#safe > img {
+	background: linear-gradient(135deg, #2e73e8 0%, #215fda 100%);
+}

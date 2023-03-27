@@ -1,0 +1,51 @@
+.footer-container {
+	display: flex;
+    justify-content:space-around;
+    margin-top: 35px;
+}
+
+.footer-container > div:nth-child(2) {
+	/* border: 1px solid red; */
+	display: flex;
+}
+.discord-button {
+	background: rgba(88, 101, 242, 0.1);
+	border: 1px solid #5865f2;
+	border-radius: 10px;
+	padding: 12px 50px;
+	color: #5865f2;
+}
+.company-info-container > div > h2 {
+	font-weight: 600;
+	font-size: 14px;
+	color: #111822;
+	opacity: 0.25;
+    margin-top:0;
+}
+.company-info-container > div > ul {
+    display: flex;
+    flex-direction: column;
+    gap: 13px;
+	list-style: none;
+	padding-left: 0;
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 19px;
+	letter-spacing: -0.02em;
+	color: #111822;
+	opacity: 0.75;
+}
+.jod > p {
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 17px;
+	color: #111822;
+	opacity: 0.5;
+}
+.company-info-container > div{
+    /* border: 1px solid red; */
+    margin: 0 50px;
+}
+.resources{
+    margin: 0 100px;
+}
