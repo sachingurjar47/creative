@@ -1,7 +1,8 @@
 .welcome-container {
 	/* max-width: 850px; */
-	margin: 0px auto;
-	padding: 100px;
+    /* border: 1px solid black; */
+	margin:80px auto;
+	padding: 0 100px;
 	display: flex;
 	flex-direction: column;
 }
@@ -14,7 +15,7 @@
 	letter-spacing: -0.02em;
 	color: #111822;
 	opacity: 0.5;
-	margin-bottom: 0;
+	margin-bottom: 3px;
 }
 .welcome-container > div > p:nth-child(3) {
 	font-weight: 500;
@@ -27,23 +28,23 @@
 	max-width: 500px;
 	margin: 25px auto;
 }
-.welcome-container > div > h1 {
+.h-div {
 	font-weight: 600;
 	font-size: 56px;
 	line-height: 67px;
 	text-align: center;
 	letter-spacing: -0.02em;
 	color: #111822;
-	margin-top: 3px;
+    margin: 0 auto;
 	margin-bottom: 17px;
 }
-.welcome-container > div > h1 > span:nth-child(1) {
+.h-div > span:nth-child(1) {
 	color: #077bff;
 	background: url(/src/utils/blueStar.svg);
 	background-repeat: no-repeat;
 	background-position: right top;
 }
-.welcome-container > div > h1 > span:nth-child(2) {
+.h-div > span:nth-child(2) {
 	color: #16d113;
 	background: url(/src/utils/greenStar.svg);
 	background-repeat: no-repeat;
@@ -62,6 +63,8 @@
 	margin-bottom: 27px;
 	width: 222px;
 	height: 50px;
+    border: transparent;
+    border-bottom: 5px solid #0566D5;;
 }
 .rating-container {
 	display: flex;
@@ -70,7 +73,6 @@
 	height: 90px;
 	background: rgba(0, 182, 122, 0.1);
 	border-radius: 10px;
-	border: 1px solid;
 }
 .rating {
 	margin: 0 auto;
@@ -105,27 +107,20 @@
 }
 .security-container {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
+	/* flex-direction: row; */
+	justify-content: space-evenly;
 }
 
 .security-container > div {
 	display: flex;
-	flex-direction: row;
-	justify-content: center;
-    align-items: center;
-    padding:27px 35px ;
-}
-.security-container > div >P{
-    border: 1px solid black;
-    margin:0;
-    margin-left: 16px;
+    padding:10px 20px ;
+    margin: 15px 10px;
 }
 .security-container > div > img {
 	border-radius: 8px;
 	width: 40px;
 	height: 40px;
-    border: 1px solid black;
+    margin:15px;
 }
 #square {
 	background: #eefefd;
@@ -158,4 +153,11 @@
 }
 #safe > img {
 	background: linear-gradient(135deg, #2e73e8 0%, #215fda 100%);
+}
+.solid-bar{
+    background-color:#D9D8D6 ;
+    border: 1px solid #D9D8D6;
+    margin: 16px auto;
+    /* max-width: 50%; */
+    width: 600px;
 }

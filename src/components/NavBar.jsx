@@ -6,7 +6,7 @@ import "./NavBar.css";
 
 const NavBar = () => {
 	return (
-		<div>
+		<div className='nav-container'>
 			<nav className='navbar-container'>
 				<div className='logo-container'>
 					<img src={logo} alt='logo' />
@@ -41,7 +41,7 @@ const NavBar = () => {
 					<button>Log in</button>
 				</div>
 				<button className='get-started-button'>Get Started</button>
-            </nav>
+			</nav>
 		</div>
 	);
 };

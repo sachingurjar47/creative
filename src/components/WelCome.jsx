@@ -12,7 +12,7 @@ const WelCome = () => {
 		<div className='welcome-container'>
 			<div>
 				<p>WELCOME TO CREATIVE PROXIES</p>
-				<h1>
+				<h1 className="h-div">
 					We are the <span>Fastest </span> and the <span>Most Reliable </span>{" "}
 					Proxy Service since 2020
 				</h1>
@@ -56,7 +56,8 @@ const WelCome = () => {
 						</p>
 					</div>
 				</div>
-			</div>
+            </div>
+            <div className="solid-bar"></div>
 			<div className='security-container'>
 				<div id='square'>
 					<img src={square} alt='' />
